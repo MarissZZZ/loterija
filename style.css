@@ -1,0 +1,21 @@
+body {
+    background-color: lightblue;
+}
+
+table, th {
+    border: 10px dotted rgb(2, 59, 33);
+  }
+
+  table td {
+    border: 1px solid rgb(240, 6, 6);
+  }
+
+  table {
+      width: 100%;
+      height: top 35px;
+  }
+
+  thead {
+      background-color: red;
+      color: black;
+  }
