@@ -6,21 +6,32 @@ let rindas = document.querySelector('.rindas'); // pievieno mainīgo
 
 // Math.random=Math.random()*10;
 
-for (let i = 0; i < uzvaretajuSkaits; i++) {
+function randFunc(maxCipars) {
+    let random1 = Math.floor(Math.random() * maxCipars); // math.floor noapaļo uz leju
+    return random1
+}
 
-    let rand = Math.random() * vardi.length; // vārdu skaits mainīgs
-    rand = Math.floor(rand); // noapaļo uz leju
+function izlozet() {
 
-    console.log(vardi[rand]);
-    //index.html meta cods nozīmē kad atļautas ir garumzīme
+    rindas.innerHTML=``; // lai katru reizi izdzēš
+    
+    for (let i = 0; i < uzvaretajuSkaits; i++) {
 
-    let uzvaretajs = vardi[rand]; // console.log vietā
-    rindas.innerHTML += `
+
+        // let rand = Math.random() * vardi.length; // vārdu skaits mainīgs
+        // rand = Math.floor(rand); // noapaļo uz leju
+
+        // console.log(vardi[rand]);
+        // index.html meta cods nozīmē kad atļautas ir garumzīme
+
+        let rand = randFunc(vardi.length);
+
+        let uzvaretajs = vardi[rand]; // console.log vietā
+        rindas.innerHTML += `
 <tr>
     <td>${i + 1}</td>
     <td>${uzvaretajs}</td>
 </tr>` // pievieno +  
 
+    }
 }
-
-

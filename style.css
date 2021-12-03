@@ -3,19 +3,28 @@ body {
 }
 
 table, th {
-    border: 10px dotted rgb(2, 59, 33);
+    border: 10px dotted rgb(0, 69, 90);
   }
 
   table td {
-    border: 1px solid rgb(158, 22, 22);
+    border: 1px solid rgb(11, 152, 207);
   }
 
   table {
-      width: 100%;
-      height: top 35px;
+      width: 15cm;
+      height: 10cm;
   }
 
   thead {
-      background-color: red;
+      background-color: rgb(11, 152, 207);
       color: black;
+  }
+
+  h1 {
+      color: rgb(5, 57, 92);
+  }
+
+  div {
+    margin-left: 17cm;
+    margin-top: 1cm;
   }
