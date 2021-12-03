@@ -1,5 +1,5 @@
 body {
-    background-color: lightblue;
+    background-color: rgb(204, 221, 226);
 }
 
 table, th {
@@ -7,7 +7,7 @@ table, th {
   }
 
   table td {
-    border: 1px solid rgb(240, 6, 6);
+    border: 1px solid rgb(158, 22, 22);
   }
 
   table {
