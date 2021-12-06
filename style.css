@@ -27,7 +27,7 @@ table, th {
       display: block;
   }
 
-  .center {
+  table {
   display: block;
   margin-left: auto;
   margin-right: auto;
