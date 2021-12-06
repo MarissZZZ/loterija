@@ -27,10 +27,14 @@ function izlozet() {
         let rand = randFunc(vardi.length);
 
         let uzvaretajs = vardi[rand]; // console.log vietā
+
+        let balva=balvas[rand];
+
         rindas.innerHTML += `
 <tr>
     <td>${i + 1}</td>
     <td>${uzvaretajs}</td>
+    <td>${balva}</td>
 </tr>` // pievieno +  
 
     }

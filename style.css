@@ -11,8 +11,8 @@ table, th {
   }
 
   table {
-      width: 15cm;
-      height: 10cm;
+      width: 50%;
+      border-collapse: collapse;
   }
 
   thead {
@@ -22,9 +22,36 @@ table, th {
 
   h1 {
       color: rgb(5, 57, 92);
+      margin-top: auto;
+      margin-left: auto;
+      display: block;
   }
 
-  div {
-    margin-left: 17cm;
-    margin-top: 1cm;
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  .btn {
+  background-color: #004a55;
+  border: none;
+  color: rgb(247, 248, 248);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 1cm;
+  margin-left: auto;
+  margin-right: auto;
+  
+  }
+
+  img {
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2cm;
   }
